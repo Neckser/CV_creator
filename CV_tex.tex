@@ -1,0 +1,182 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\hypersetup{hidelinks}
+\setlength{\parindent}{0pt}
+\pagenumbering{gobble}
+
+% Отступы списков
+\setlist[itemize]{nosep, leftmargin=*}
+\setlist[enumerate]{leftmargin=*}
+
+% Немного уменьшенный межстрочный интервал для компактности
+\renewcommand{\baselinestretch}{1.15}
+
+% Поля страницы
+\usepackage[a4paper, left=1.2cm, right=1.2cm, top=1.5cm, bottom=1cm]{geometry}
+
+% Шрифты
+\setmainfont{DejaVu Serif}
+
+% Цвета
+\definecolor{primary_color}{RGB}{63, 97, 21}    % тёмно-зелёный
+\definecolor{secondary_color}{RGB}{255, 204, 0} % жёлтый
+
+% Формат секций с цветом и линией
+\usepackage{titlesec}
+\titleformat{\section}
+  {\LARGE\bfseries\raggedright\color{primary_color}}
+  {}{0em}{}
+  [{\color{secondary_color}\titlerule}]
+\titlespacing*{\section}{0cm}{*1}{*0.8}
+
+% Ширина иконок в секциях
+\newlength{\iconwidth}
+\setlength{\iconwidth}{1.5em}
+
+% Контактная информация
+\newcommand{\contact}{
+    \footnotesize
+    \textcolor{primary_color}{
+        \faEnvelope \quad \href{mailto:oomelnik@edu.hse.ru}{oomelnik@edu.hse.ru}
+        \hspace{3em}
+        \faGithub \quad \href{https://github.com/Exception0x0194/SEU-CV}{github.com/Exception0x0194}
+    }
+}
+
+\begin{document}
+
+{\titleformat{\section}[block]{\LARGE\bfseries\color{primary_color}\centering}{}{0em}{}\section{Мельник Олег}}
+
+% Образование
+\section{\makebox[\iconwidth][c]{\faGraduationCap}\quad Образование}
+
+\textbf{Высшая Школа Экономики}\hfill \textbf{2024}
+\begin{itemize}
+    \item Факультет Компьютерных Наук
+    \item Cпециальность: Прикладная Математика и Информатика
+\end{itemize}
+
+% Навыки
+\section{\makebox[\iconwidth][c]{\faWrench}\quad Навыки}
+
+\begin{itemize}
+    \item Python + (Django, FastAPI, Telebot, Matplotlib, Numpy, Pandas, Join, Streamlit)
+    \item C++
+    \item Swift
+    \item SQL
+    \item ООП, Алгоритмы и Структуры Данных
+    \item Bash, Powershell, Linux
+    \item HTML, CSS
+    \item Git, GitHub, Docker
+\end{itemize}
+
+\vspace{1em}
+
+% Научные публикации
+\section{\makebox[\iconwidth][c]{\faAtom}\quad Опыт работы}
+\begin{itemize}
+    \item Работа репетитором по подготовке к ОГЭ и обучению Python \hfill \textbf{2022 - Настоящее время}
+    \item Разработка Телеграмм ботов (Freelance)\hfill \textbf{2022 - 2024}
+\end{itemize}
+
+\vspace{1em}
+
+{\centering \contact \par}
+
+\end{document}
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\hypersetup{hidelinks}
+\setlength{\parindent}{0pt}
+\pagenumbering{gobble}
+
+% Отступы списков
+\setlist[itemize]{nosep, leftmargin=*}
+\setlist[enumerate]{leftmargin=*}
+
+% Немного уменьшенный межстрочный интервал для компактности
+\renewcommand{\baselinestretch}{1.15}
+
+% Поля страницы
+\usepackage[a4paper, left=1.2cm, right=1.2cm, top=1.5cm, bottom=1cm]{geometry}
+
+% Шрифты
+\setmainfont{Times New Roman}
+
+% Цвета
+\definecolor{primary_color}{RGB}{63, 97, 21}    % тёмно-зелёный
+\definecolor{secondary_color}{RGB}{255, 204, 0} % жёлтый
+
+% Формат секций с цветом и линией
+\usepackage{titlesec}
+\titleformat{\section}
+  {\LARGE\bfseries\raggedright\color{primary_color}}
+  {}{0em}{}
+  [{\color{secondary_color}\titlerule}]
+\titlespacing*{\section}{0cm}{*1}{*0.8}
+
+% Ширина иконок в секциях
+\newlength{\iconwidth}
+\setlength{\iconwidth}{1.5em}
+
+% Контактная информация
+\newcommand{\contact}{
+    \footnotesize
+    \textcolor{primary_color}{
+        \faEnvelope \quad \href{mailto:oomelnik@edu.hse.ru}{oomelnik@edu.hse.ru}
+        \hspace{3em}
+        \faGithub \quad \href{https://github.com/Exception0x0194/SEU-CV}{github.com/Exception0x0194}
+    }
+}
+
+\begin{document}
+
+{\titleformat{\section}[block]{\LARGE\bfseries\color{primary_color}\centering}{}{0em}{}\section{Мельник Олег}}
+
+% Образование
+\section{\makebox[\iconwidth][c]{\faGraduationCap}\quad Образование}
+
+\textbf{Высшая Школа Экономики}\hfill \textbf{2024}
+\begin{itemize}
+    \item Факультет Компьютерных Наук
+    \item Cпециальность: Прикладная Математика и Информатика
+\end{itemize}
+
+% Навыки
+\section{\makebox[\iconwidth][c]{\faWrench}\quad Навыки}
+
+\begin{itemize}
+    \item Python + (Django, FastAPI, Telebot, Matplotlib, Numpy, Pandas, Join, Streamlit)
+    \item C++
+    \item Swift
+    \item SQL
+    \item ООП, Алгоритмы и Структуры Данных
+    \item Bash, Powershell, Linux
+    \item HTML, CSS
+    \item Git, GitHub, Docker
+\end{itemize}
+
+\vspace{1em}
+
+% Научные публикации
+\section{\makebox[\iconwidth][c]{\faAtom}\quad Опыт работы}
+\begin{itemize}
+    \item Работа репетитором по подготовке к ОГЭ и обучению Python \hfill \textbf{2022 - Настоящее время}
+    \item Разработка Телеграмм ботов (Freelance)\hfill \textbf{2022 - 2024}
+\end{itemize}
+
+\vspace{1em}
+
+{\centering \contact \par}
+
+\end{document}
